@@ -6,14 +6,11 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('Check') {
       steps {
         echo 'Hello'
       }
     }
 
-  }
-  environment {
-    CI = 'true'
   }
 }
